@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Badalti Soch</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+}
+
+body {
+  background: linear-gradient(135deg,#0f172a,#020617);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav h2 {
+  color: #38bdf8;
+}
+
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  background: linear-gradient(90deg,#38bdf8,#a78bfa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: fadeIn 2s ease;
+}
+
+.hero p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: red;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+/* SECTION */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* VIDEOS GRID */
+.videos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* ABOUT */
+.about {
+  max-width: 700px;
+  margin: auto;
+  opacity: 0.8;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  padding: 20px;
+  text-align: center;
+}
+
+/* ANIMATION */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(30px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+</style>
+<a href="https://wa.me/918227850259" target="_blank" class="whatsapp-float">
+  💬
+</a>
+
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <h2>Badalti Soch</h2>
+  <div>
+    <a href="#">Home</a>
+    <a href="#videos">Videos</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <h1>Badalti Soch</h1>
+  <p>Change Your Mindset, Change Your Life 🚀</p>
+
+  <a class="btn" href="https://youtube.com/@badalti_soch-i6x" target="_blank">
+    Subscribe Now 🔴
+    <div style="margin-top:20px;">
+
+  <a href="https://wa.me/918227850259" target="_blank" class="btn">
+    💬 WhatsApp
+  </a>
+
+  <a href="https://t.me/heyy_adi_2007" target="_blank" class="btn" style="background:#0088cc;">
+    ✈️ Telegram
+  </a>
+
+</div>
+  </a>
+</section>
+
+<!-- VIDEOS -->
+<section class="section" id="videos">
+  <h2>🔥 Latest Videos</h2>
+
+  <div class="videos">
+
+  <div class="card">
+    <iframe src="https://www.youtube.com/embed/-YwZDxn3NrI" allowfullscreen></iframe>
+  </div>
+
+  <!-- aur videos add karne ke liye -->
+  <div class="card">
+    <iframe src="https://youtu.be/IusrMnszVrc?si=8H2ilaJwifU_mTbi"></iframe>
+  </div>
+
+  <div class="card">
+    <iframe src="https://youtu.be/X9QYGV0ivVQ?si=aCUHTk0sdsrEgUcq"></iframe>
+  </div>
+
+</div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <h2>📌 About</h2>
+  <p class="about">
+    Yeh channel mindset shift, motivation aur real life growth ke liye banaya gaya hai.
+    Agar tum apni life upgrade karna chahte ho to yeh channel tumhare liye hai 🔥
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Badalti Soch | Made with ❤️</p>
+
+  <div style="margin-top:10px;">
+
+    <a href="https://youtube.com/@badalti_soch-i6x" target="_blank">▶️ YouTube</a> |
+
+    <a href="https://wa.me/918227850259" target="_blank">💬 WhatsApp</a> |
+
+    <a href="https://t.me/heyy_adi_2007" target="_blank">✈️ Telegram</a>
+
+  </div>
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+// Replace with your channel username
+const channelID = "badalti_soch-i6x";
+
+// Dummy latest videos (YouTube API ke bina workaround)
+const videos = [
+  "-YwZDxn3NrI"
+];
+
+const container = document.getElementById("videoContainer");
+
+videos.forEach(id => {
+  container.innerHTML += `
+    <div class="card">
+      <iframe src="https://www.youtube.com/embed/${id}" allowfullscreen></iframe>
+    </div>
+  `;
+});
+</script>
+
+</body>
+</html>
